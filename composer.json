@@ -1,0 +1,23 @@
+{
+    "name": "its/mailup",
+    "description": "MailUp integration for Laravel",
+    "license": "GNU LGPL",
+    "keywords": ["mailup"],
+    "type": "package",
+    "authors": [
+        {
+            "name": "Angelo Alfano",
+            "email": "angeloalfano@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Its\\Mailup\\": "src/Its/Mailup"
+        }
+    }
+}
