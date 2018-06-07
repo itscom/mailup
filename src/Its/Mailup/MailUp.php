@@ -39,7 +39,6 @@ class MailUp {
 	public function addGroup($group)
 	{
 		$this->groups[] = $group;
-		var_dump($this->groups);
 	}
 
 	public function subscribeEmail($email)
